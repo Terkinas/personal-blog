@@ -29,7 +29,7 @@ export default function Hero({}: Props) {
       </div>
 
       <div className='flex justify-center items-end h-fit max-w-lg'>
-        <Image className='relative h-full' src='/images/home/portrait2.png' alt={'Portrait of Arnold'} width={330} height={330} />
+        <Image className='relative h-full' src='/images/home/portrait3.png' alt={'Portrait of Arnold'} width={330} height={330} />
       </div>
     </header>
   )
