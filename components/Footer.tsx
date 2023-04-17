@@ -9,7 +9,7 @@ export default function Footer({}: Props) {
 
         <div className='flex flex-col gap-8 py-4'>
             <div className='text-sky-800 text-xl font-bold'>
-                <h2>Let's make something amazing together.</h2>
+                <h2>Let&quot;s make something amazing together.</h2>
                 <br />
                 <h3>Start by <span className='text-red-400 border-b-2 border-red-500'>saying hi</span></h3>
             </div>
