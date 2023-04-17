@@ -8,15 +8,15 @@ export default function Footer({}: Props) {
     <footer className='bg-white w-11/12 mx-auto mt-2'>
 
         <div className='flex flex-col gap-8 py-4'>
-            <div className='text-sky-800 text-xl font-bold'>
+            <div className='text-lime-800 text-xl font-bold'>
                 <h2>Let&#39;s make something amazing together.</h2>
                 <br />
-                <h3>Start by <span className='text-red-500 border-b-2 border-red-500'>saying hi</span></h3>
+                <h3>Start by <span className='text-red-400 border-b-2 border-red-400'>saying hi</span></h3>
             </div>
 
             <div className='flex flex-col gap-4'>
                 <div>
-                    <h4 className='font-semibold text-sky-800'>Information</h4>
+                    <h4 className='font-semibold text-lime-800'>Information</h4>
                     <h5 className='text-sm '>Kaunas, Lithuania</h5>
                     <h6 className='text-xs'>+370 (600) 38825</h6>
                 </div>
