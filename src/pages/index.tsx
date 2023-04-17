@@ -1,10 +1,18 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Poppins } from 'next/font/google'
+
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-const poppins = Poppins({ subsets: ['latin'], weight: ['400','500','600','700'] })
+import { Poppins } from 'next/font/google'
+import Hero from '../../components/home/Hero'
+
+const poppins = Poppins({ 
+  subsets: ['latin'], 
+  weight: ['400','500','600','700'],
+  variable: '--font-poppins'
+ })
+
 
 export default function Home() {
   return (
@@ -15,9 +23,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={poppins.className}>
+      <main className='bg-[#ECF2FF]'>
         <Header />
-
+          <Hero />
         <Footer />
       </main>
     </>
